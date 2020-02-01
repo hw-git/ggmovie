@@ -4,7 +4,8 @@ import VueRouter from 'vue-router'
 import movieRouter from './movie'
 import mineRouter from './mine'
 import cinemaRouter from './cinema'
-Vue.use(VueRouter)
+Vue.use(VueRouter);
+
 // 添加路由
 const routes = [
   movieRouter,
